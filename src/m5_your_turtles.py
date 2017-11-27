@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #
 #  You should have RUN the PREVIOUS module and READ its code.
 #  (Do so now if you have not already done so.)
@@ -31,6 +31,8 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 import rosegraphics as rg  # why is it doing this?
 
+# Should I worry about the yellow lines?
+
 import rosegraphics as rg
 
 window = rg.TurtleWindow()
@@ -39,7 +41,6 @@ elvis = rg.SimpleTurtle('turtle')
 elvis.pen = rg.Pen('red', 3)
 elvis.speed = 10  # Fast
 
-size = 300
 
 for k in range(3):
     elvis.pen_up()
@@ -53,7 +54,6 @@ miley = rg.SimpleTurtle('turtle')
 miley.pen = rg.Pen('green', 6)
 miley.speed = 10
 
-size = 300
 
 for k in range(4):
     miley.pen_up()

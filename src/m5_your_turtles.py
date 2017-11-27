@@ -29,10 +29,6 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #  Don't forget to COMMIT your work by using  VCS ~ Commit and Push.
 ########################################################################
 
-import rosegraphics as rg  # why is it doing this?
-
-# Should I worry about the yellow lines?
-
 import rosegraphics as rg
 
 window = rg.TurtleWindow()

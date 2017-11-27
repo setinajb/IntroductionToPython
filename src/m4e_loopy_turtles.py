@@ -42,7 +42,7 @@ Concepts include:
         rg.PaintBucket()
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         and their colleagues.
+         and Jaclyn Setina.
 """
 import rosegraphics as rg
 
